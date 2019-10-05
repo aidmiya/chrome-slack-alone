@@ -4,7 +4,7 @@
     "manifest_version": 2,
     "description": "Simple Chrome Extension",
     "content_scripts": [{
-      "matches": ["https://aidmiya.slack.com/*"],
+      "matches": ["https://aidmiya.slack.com/*", "https://app.slack.com/client/TH1R7DD96/*"],
       "js": [
         "content.js"
       ],
